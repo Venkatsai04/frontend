@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 70vh;
+            font-family: 'Bungee Spice', cursive;
+        }
+        form{
+            display: flex;
+            flex-direction: column
+        }
+        input,textarea{
+            font-size: 20px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px
+        }
+
+        div{
+            text-align: center;
+        }
+
+        h1{
+            text-transform: uppercase;
+        }
+        .button{
+            width: 80px;
+            margin: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div><h1>contact us</h1></div>
+        <input type="text" placeholder="first name">
+        <input type="text" placeholder="last name">
+        <input type="text" placeholder="current address">
+        <input type="email" placeholder="email">
+        <input type="phone" placeholder="mobile number">
+        <textarea cols="30" rows="5" ></textarea>
+        <input class="button" type="submit">
+
+    </form>
+</body>
+
+</html>
